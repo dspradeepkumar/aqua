@@ -1,3 +1,3 @@
 # aqua
 
-Object-Oriented Programming Language
+Object-Oriented Functional Programming Language
