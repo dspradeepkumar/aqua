@@ -1,0 +1,11 @@
+class Snooper {
+	
+	function trackMedicalHistory(history : string) : _
+	{
+		//..track medical history - maliciously
+	}
+	function changePresctiption(prescription : Prescription) : _
+	{
+		//..code to change prescription maliciously
+	}
+}

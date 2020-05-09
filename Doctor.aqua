@@ -1,0 +1,7 @@
+class Doctor {
+	
+	function analyse(history : MedicalRecord) : Str
+	{
+		//..code to analyse.
+	}
+}

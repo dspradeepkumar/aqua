@@ -1,0 +1,53 @@
+import com.aqua;
+
+class Client {
+  
+    function hello():_ {    
+        print "Hello World!";
+    } 
+   
+    function main():_ {
+        print "hello world!";
+        obj x = 5; 
+        obj X = 6; 
+        obj cobj2 = 10+20-100;
+        print cobj2;
+	  
+		obj cobj2 = 10+"text";
+		print cobj2;
+		
+		obj cobj2 = 10+'t';
+		print cobj2;
+		
+		obj cobj3 = 10.73273;
+		print cobj3;
+		
+		obj cobj4 = null;
+		print cobj4;
+		
+		obj cobj5 = cobj4.a(10,c(cobj3)).b();
+		print cobj5;
+		
+		obj cobj5 = cobj4 + cobj3;
+		print cobj5;
+		
+		print hello();
+        
+        print "value of x is %s and y is %s and %s", X, x, X;  
+   	
+        print "value of x is " + x + " "+ X + " end";
+   
+        
+		obj:mu hosp : Hospital; 
+		
+		hosp <+ { 
+					function consultDoctor() : _
+					 {
+						print "Alice want's to consult specialist doctor...";
+					 }
+			     }; 
+ 		
+ 		print hosp.consultDoctor();
+        
+    } 
+}

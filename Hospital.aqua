@@ -1,0 +1,29 @@
+class Hospital {	
+//	obj a = 100;
+	obj doctor : Doctor;
+	obj mrecord : MedicalRecord;
+	    
+	function getPatientHistory() : [?][O] Str
+	{
+	    /*
+		obj patientHistory : Str;
+		print a;
+
+		print patientHistory.int2str(1200);
+		
+		print "--MEDICALRECORD-->";
+		print patientHistory.id;
+		print patientHistory.townername;
+ 	  	print patientHistory.downername;
+ 	  	print patientHistory.sownername;
+ 	  	print "--MD-->";
+ 	  	*/
+ 	  	
+		declassify mrecord;
+	}	
+	
+	function process(record : MedicalRecord) : _
+	{
+		record.printmr(record); 	  
+	}
+}
