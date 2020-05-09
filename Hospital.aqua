@@ -3,10 +3,10 @@ class Hospital {
 	obj doctor : Doctor;
 	obj mrecord : MedicalRecord;
 	    
-	function getPatientHistory() : [?][O] Str
+	function getPatientHistory() : [?][O] string
 	{
 	    /*
-		obj patientHistory : Str;
+		obj patientHistory : string;
 		print a;
 
 		print patientHistory.int2str(1200);

@@ -1,5 +1,5 @@
 class Patient {	
-	function getMedicalHistory() : Str
+	function getMedicalHistory() : string
 	{		
 	    obj ecgRecord : [?][this]mHealthDevice;
 	    declassify ecgRecord.getHistory();

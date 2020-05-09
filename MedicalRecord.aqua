@@ -1,20 +1,9 @@
 class MedicalRecord {	
-	 ${ //defines the property of an object during execution	
-		state declassify: 
-			hide: "getPatientHistory():_";	//method signature
-			add: function method2() : _
-				 {
-					print "method2()";
-					obj mRecord : [?][this] MedicalRecord; 	  
-   	  				declassify mRecord; 
-				 };
-	  }
-	
 	obj a = 100;
 	
-	function getPatientHistory(hospital : Hospital) : [?][O] Str
+	function getPatientHistory(hospital : Hospital) : [?][O] string
 	{
-		obj patientHistory : Str;
+		obj patientHistory : string;
 		print a;
 
 		print patientHistory.int2str(1200);

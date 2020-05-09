@@ -1,6 +1,6 @@
 class Doctor {
 	
-	function analyse(history : MedicalRecord) : Str
+	function analyse(history : MedicalRecord) : string
 	{
 		//..code to analyse.
 	}
