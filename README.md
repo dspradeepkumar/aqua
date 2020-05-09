@@ -1,11 +1,13 @@
 # aqua
 
-Object-Oriented Functional Programming Language
+## Object-Oriented Functional Programming Language
 
+## How To Execute: !
 
-How To Execute: 
-
-> { aqua.jar inputfile.aqua classname }
+## From Jar:
+	>> java -jar aqua.jar <input_file> <main_class>
   
-> java -jar aqua.jar Client.aqua Client
-
+## Example:
+	>> java -jar aqua.jar Client.aqua Client
+  
+### (Details - Under Construction)
